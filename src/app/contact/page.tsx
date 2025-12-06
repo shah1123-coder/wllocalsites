@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -353,7 +354,7 @@ export default function ContactPage() {
             size="lg"
             className="bg-[var(--burnt-orange)] hover:bg-white hover:text-[var(--burgundy)] text-white"
           >
-            <a href="/menu">Browse Our Menu</a>
+            <Link href="/menu">Browse Our Menu</Link>
           </Button>
         </div>
       </section>

@@ -112,7 +112,7 @@ export default function Home() {
                 className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-[var(--burgundy)] text-lg px-8 py-6"
               >
                 <a
-                  href="https://maps.google.com/?q=3401+Fairfield+Ct+Lafayette+IN+47909"
+                  href="https://www.google.com/maps/place/Lilys+Diner+Inc/@40.367874,-86.8591611,17z/data=!3m1!4b1!4m6!3m5!1s0x88131d7a6299ad97:0x31d12e5c174820e1!8m2!3d40.367874!4d-86.8565862!16s%2Fg%2F11lts3nr__?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -238,8 +238,7 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-[var(--burgundy)] text-lg px-8"
+              className="bg-[var(--burnt-orange)] hover:bg-white hover:text-[var(--burgundy)] text-white text-lg px-8"
             >
               <a href="tel:+17654742345">
                 <Phone className="w-5 h-5 mr-2" />
