@@ -4,7 +4,7 @@ import path from "node:path";
 const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader.js');
 
 const nextConfig: NextConfig = {
-  basePath: '/lilysdiner',
+  // basePath removed for subdomain deployment (lilysdiner.wllocalsites.info)
   images: {
     remotePatterns: [
       {
